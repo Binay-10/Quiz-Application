@@ -1,0 +1,297 @@
+================================================================================
+SAMPLE RUN 1: FULL QUIZ SESSION (PASSED - 80.00%)
+================================================================================
+
+============================================================
+                 PYTHON KNOWLEDGE QUIZ
+============================================================
+Total Questions: 10 | Passing Grade: 70%
+Instructions   : Enter A, B, C, or D for each question.
+                 Enter Q at any prompt to quit the quiz early.
+============================================================
+
+Question 1 of 10:
+Which keyword is used to create a function in Python?
+
+A) func
+B) define
+C) def
+D) function
+
+Your Answer (A/B/C/D or Q to Quit): c
+-> Correct!
+
+Question 2 of 10:
+Which of the following built-in collection types in Python is immutable?
+
+A) List
+B) Dictionary
+C) Set
+D) Tuple
+
+Your Answer (A/B/C/D or Q to Quit): d
+-> Correct!
+
+Question 3 of 10:
+What is the standard file extension for Python source code files?
+
+A) .python
+B) .py
+C) .pt
+D) .pyt
+
+Your Answer (A/B/C/D or Q to Quit): b
+-> Correct!
+
+Question 4 of 10:
+Which character is used to denote a single-line comment in Python?
+
+A) //
+B) /*
+C) #
+D) --
+
+Your Answer (A/B/C/D or Q to Quit): a
+-> Incorrect! The correct answer was: C) #
+
+Question 5 of 10:
+Which built-in function returns the total number of items in an iterable?
+
+A) count()
+B) size()
+C) length()
+D) len()
+
+Your Answer (A/B/C/D or Q to Quit): d
+-> Correct!
+
+Question 6 of 10:
+Which list method adds a single element to the very end of a list?
+
+A) append()
+B) add()
+C) insert()
+D) extend()
+
+Your Answer (A/B/C/D or Q to Quit): a
+-> Correct!
+
+Question 7 of 10:
+Which keyword is paired with 'try' to handle errors and exceptions in Python?
+
+A) catch
+B) except
+C) handle
+D) rescue
+
+Your Answer (A/B/C/D or Q to Quit): b
+-> Correct!
+
+Question 8 of 10:
+What is the evaluated output of the expression bool(0) in Python?
+
+A) True
+B) False
+C) None
+D) ZeroDivisionError
+
+Your Answer (A/B/C/D or Q to Quit): a
+-> Incorrect! The correct answer was: B) False
+
+Question 9 of 10:
+Which mathematical operator represents exponentiation (power) in Python?
+
+A) ^
+B) **
+C) //
+D) pow
+
+Your Answer (A/B/C/D or Q to Quit): b
+-> Correct!
+
+Question 10 of 10:
+Which data type stores an unordered collection of unique elements?
+
+A) List
+B) Tuple
+C) Set
+D) Dictionary
+
+Your Answer (A/B/C/D or Q to Quit): c
+-> Correct!
+
+
+============================================================
+                      [FINAL RESULTS]
+============================================================
+Quiz Status          : Completed (All Questions Answered)
+Total Questions      : 10
+Questions Attempted  : 10
+Correct Answers      : 8
+Incorrect Answers    : 2
+Unanswered Questions : 0
+Final Score          : 80.00%
+Result               : PASSED (Certificate Eligible)
+------------------------------------------------------------
+Feedback: Congratulations! You demonstrated strong Python proficiency and passed the quiz!
+============================================================
+
+
+================================================================================
+SAMPLE RUN 2: INPUT VALIDATION & ERROR RECOVERY
+================================================================================
+
+Question 1 of 10:
+Which keyword is used to create a function in Python?
+
+A) func
+B) define
+C) def
+D) function
+
+Your Answer (A/B/C/D or Q to Quit): 
+   [!] Invalid input ''. Please enter A, B, C, D, or Q.
+
+Your Answer (A/B/C/D or Q to Quit): hello
+   [!] Invalid input 'hello'. Please enter A, B, C, D, or Q.
+
+Your Answer (A/B/C/D or Q to Quit): 3
+   [!] Invalid input '3'. Please enter A, B, C, D, or Q.
+
+Your Answer (A/B/C/D or Q to Quit):   c  
+-> Correct!
+
+
+================================================================================
+SAMPLE RUN 3: EARLY QUIT SESSION (Q AT QUESTION 6)
+================================================================================
+
+============================================================
+                 PYTHON KNOWLEDGE QUIZ
+============================================================
+Total Questions: 10 | Passing Grade: 70%
+Instructions   : Enter A, B, C, or D for each question.
+                 Enter Q at any prompt to quit the quiz early.
+============================================================
+
+Question 1 of 10:
+Which keyword is used to create a function in Python?
+
+A) func
+B) define
+C) def
+D) function
+
+Your Answer (A/B/C/D or Q to Quit): c
+-> Correct!
+
+Question 2 of 10:
+Which of the following built-in collection types in Python is immutable?
+
+A) List
+B) Dictionary
+C) Set
+D) Tuple
+
+Your Answer (A/B/C/D or Q to Quit): d
+-> Correct!
+
+Question 3 of 10:
+What is the standard file extension for Python source code files?
+
+A) .python
+B) .py
+C) .pt
+D) .pyt
+
+Your Answer (A/B/C/D or Q to Quit): b
+-> Correct!
+
+Question 4 of 10:
+Which character is used to denote a single-line comment in Python?
+
+A) //
+B) /*
+C) #
+D) --
+
+Your Answer (A/B/C/D or Q to Quit): c
+-> Correct!
+
+Question 5 of 10:
+Which built-in function returns the total number of items in an iterable?
+
+A) count()
+B) size()
+C) length()
+D) len()
+
+Your Answer (A/B/C/D or Q to Quit): a
+-> Incorrect! The correct answer was: D) len()
+
+Question 6 of 10:
+Which list method adds a single element to the very end of a list?
+
+A) append()
+B) add()
+C) insert()
+D) extend()
+
+Your Answer (A/B/C/D or Q to Quit): q
+
+-> You chose to quit the quiz early. Computing your interim score...
+
+============================================================
+                      [FINAL RESULTS]
+============================================================
+Quiz Status          : Ended Early by User (5 attempted)
+Total Questions      : 10
+Questions Attempted  : 5
+Correct Answers      : 4
+Incorrect Answers    : 1
+Unanswered Questions : 5
+Final Score          : 80.00%
+Result               : PASSED (Certificate Eligible)
+------------------------------------------------------------
+Feedback: Congratulations! You demonstrated strong Python proficiency and passed the quiz!
+============================================================
+
+
+================================================================================
+SAMPLE RUN 4: ZERO-ATTEMPT EARLY QUIT (SAFE FROM ZERO-DIVISION)
+================================================================================
+
+============================================================
+                 PYTHON KNOWLEDGE QUIZ
+============================================================
+Total Questions: 10 | Passing Grade: 70%
+Instructions   : Enter A, B, C, or D for each question.
+                 Enter Q at any prompt to quit the quiz early.
+============================================================
+
+Question 1 of 10:
+Which keyword is used to create a function in Python?
+
+A) func
+B) define
+C) def
+D) function
+
+Your Answer (A/B/C/D or Q to Quit): q
+
+-> You chose to quit the quiz early. Computing your interim score...
+
+============================================================
+                      [FINAL RESULTS]
+============================================================
+Quiz Status          : Ended Early by User (No questions attempted)
+Total Questions      : 10
+Questions Attempted  : 0
+Correct Answers      : 0
+Incorrect Answers    : 0
+Unanswered Questions : 10
+Final Score          : 0.00%
+Result               : INCOMPLETE (No Questions Answered)
+------------------------------------------------------------
+Feedback: You exited before answering any questions. Run the quiz again whenever you are ready!
+============================================================
